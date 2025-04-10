@@ -40,10 +40,10 @@ const DefaultFooter = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="logo mb-10" style={{ maxWidth: "75px" }}>
+                <div className="logo mb-10" style={{ maxWidth: "200px" }}>
                   <Link href="/">
                     <img
-                      src="assets/images/logos/kreasof logo.png"
+                      src="assets/images/logos/kreasof logo h.png"
                       alt="Kreasof AI Logo"
                       style={{ width: "100%", height: "auto" }}
                     />
