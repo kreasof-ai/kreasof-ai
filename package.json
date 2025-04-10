@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "clsx": "^2.1.1",
     "isotope-layout": "^3.0.6",
     "next": "14.1.0",
     "react": "^18",
@@ -20,5 +21,9 @@
     "react-player": "^2.14.1",
     "react-slick": "^0.30.2",
     "react-visibility-sensor": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.9",
+    "typescript": "5.8.2"
   }
 }

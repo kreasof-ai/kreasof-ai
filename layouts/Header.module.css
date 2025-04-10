@@ -1,0 +1,11 @@
+.logo_text {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

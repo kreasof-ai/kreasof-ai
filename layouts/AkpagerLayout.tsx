@@ -1,11 +1,25 @@
 "use client";
-import VideoPopup from "@/components/VideoPopup";
 import { akpagerUtility } from "@/utility";
 import { Fragment, useEffect } from "react";
 import niceSelect from "react-nice-select";
 import Footer from "./Footer";
 import Header from "./Header";
-const AkpagerLayout = ({ children, header, footer, bodyClass, onePage }) => {
+
+interface AkpagerLayoutProps {
+  children: React.ReactNode;
+  header?: number;
+  footer?: number;
+  bodyClass?: string;
+  onePage?: boolean;
+}
+
+const AkpagerLayout = ({
+  children,
+  header,
+  footer,
+  bodyClass,
+  onePage,
+}: AkpagerLayoutProps) => {
   useEffect(() => {
     akpagerUtility.animation();
     akpagerUtility.fixedHeader();
@@ -18,7 +32,6 @@ const AkpagerLayout = ({ children, header, footer, bodyClass, onePage }) => {
 
   return (
     <Fragment>
-      <VideoPopup />
       <div className="page-wrapper">
         <Header header={header} onePage={onePage} />
         {children}

@@ -1,8 +1,11 @@
 "use client";
 import useClickOutside from "@/utility/useClickOutside";
+import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import { Accordion } from "react-bootstrap";
+import styles from "./Header.module.css";
+import clsx from "clsx";
 
 const Header = ({ header, onePage }) => {
   switch (header) {
@@ -50,12 +53,16 @@ const DefaultHeader = ({ onePage }) => {
           <div className="header-inner py-15 rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
-                  <img
-                    src="assets/images/logos/logo.png"
+                <Link href="/" className={styles.logo}>
+                  <Image
+                    src="/assets/images/logos/kreasof logo.png"
                     alt="Logo"
                     title="Logo"
+                    width={50}
+                    height={50}
                   />
+
+                  <h3 className={styles.logo_text}>Kreasof AI</h3>
                 </Link>
               </div>
             </div>
@@ -70,14 +77,10 @@ const DefaultHeader = ({ onePage }) => {
               </nav>
               {/* Main Menu End*/}
             </div>
-            {/* Nav Search */}
-            <div className="nav-search ms-xl-2 ms-4 py-10">
-              <NavSearch />
-            </div>
             {/* Menu Button */}
             <div className="menu-btns ms-lg-auto d-none d-xl-flex">
-              <Link href="contact" className="theme-btn">
-                Get Started <i className="far fa-arrow-right" />
+              <Link href="#" className="theme-btn">
+                Learn AI <i className="far fa-arrow-right" />
               </Link>
             </div>
           </div>
@@ -739,7 +742,11 @@ const Header9 = ({ onePage }) => {
   );
 };
 
-const HeaderNotFound = ({ onePage }) => {
+interface NotFoundProps {
+  onePage?: boolean;
+}
+
+const HeaderNotFound = ({ onePage }: NotFoundProps) => {
   return (
     <header className="main-header menu-absolute no-border">
       {/*Header-Upper*/}
@@ -782,12 +789,19 @@ const HeaderNotFound = ({ onePage }) => {
   );
 };
 
+interface NavProps {
+  logo?: string;
+  dark?: boolean;
+  onePage?: boolean;
+  menus?: Array<{ id: number; href: string; title: string }>;
+}
+
 const Nav = ({
   logo = "assets/images/logos/logo2.png",
   dark,
   onePage,
   menus,
-}) => {
+}: NavProps) => {
   return (
     <Fragment>
       <div className="d-none d-lg-flex desktop-menu">
@@ -808,7 +822,7 @@ const Nav = ({
             <span className={`icon-bar ${dark ? "bg-dark" : ""}`} />
           </Accordion.Toggle>
         </div>
-        <div eventKey="navbar-collapse" className="navbar-collapse clearfix">
+        <div className="navbar-collapse clearfix">
           {onePage ? (
             <ul className="navigation onepage clearfix">
               {menus.map((menu) => (
@@ -1054,7 +1068,7 @@ const NavSearch = () => {
           type="text"
           placeholder="Search"
           className="searchbox"
-          required=""
+          required
         />
         <button type="submit" className="searchbutton far fa-search" />
       </form>
@@ -1062,7 +1076,13 @@ const NavSearch = () => {
   );
 };
 
-const MobileMenu = ({ sidebar, onePage, menus }) => {
+interface MobileMenuProps {
+  sidebar?: boolean;
+  onePage: boolean;
+  menus: Array<{ id: number; href: string; title: string }>;
+}
+
+const MobileMenu = ({ sidebar, onePage, menus }: MobileMenuProps) => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
