@@ -40,12 +40,16 @@ const DefaultFooter = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="logo mb-10">
+                <div className="logo mb-10" style={{ maxWidth: "75px" }}>
                   <Link href="/">
-                    <img src="assets/images/logos/logo-white.png" alt="Logo" />
+                    <img
+                      src="assets/images/logos/kreasof logo.png"
+                      alt="Kreasof AI Logo"
+                      style={{ width: "100%", height: "auto" }}
+                    />
                   </Link>
                 </div>
-                <p>Digital Business Consulting Agency</p>
+                <p>Advancing Ethical AI Development</p>
               </div>
             </div>
             <div className="col-xl-6 col-lg-7">
@@ -55,11 +59,11 @@ const DefaultFooter = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h5>Subscribe Our Newsletter</h5>
+                <h5>Stay Updated with Our Research</h5>
                 <form className="newsletter-form mt-15" action="#">
-                  <input type="email" placeholder="Email Address" required="" />
+                  <input type="email" placeholder="Email Address" required />
                   <button type="submit">
-                    Sign Up <i className="far fa-arrow-right" />
+                    Subscribe <i className="far fa-arrow-right" />
                   </button>
                 </form>
               </div>
@@ -76,23 +80,24 @@ const DefaultFooter = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <h6 className="footer-title">About Company</h6>
+              <h6 className="footer-title">About Kreasof AI</h6>
               <p>
-                Doloremque laudantium tota aperiam eaque abillo inventore
-                architect beatae vitae dicta sunt explicabos
+                We are dedicated to advancing ethical AI development, focusing
+                on cultural awareness, safety, and alignment with human values
+                in artificial intelligence.
               </p>
               <div className="social-style-one">
                 <a href="#">
                   <i className="fab fa-twitter" />
                 </a>
                 <a href="#">
-                  <i className="fab fa-facebook-f" />
+                  <i className="fab fa-linkedin-in" />
                 </a>
                 <a href="#">
-                  <i className="fab fa-instagram" />
+                  <i className="fab fa-github" />
                 </a>
                 <a href="#">
-                  <i className="fab fa-pinterest-p" />
+                  <i className="fab fa-youtube" />
                 </a>
               </div>
             </div>
@@ -108,16 +113,15 @@ const DefaultFooter = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd
-                  block Melbourne, Australia
+                  <i className="fal fa-map-marker-alt" /> Jakarta, Indonesia
                 </li>
                 <li>
                   <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:contact@kreasof.ai">contact@kreasof.ai</a>
                 </li>
                 <li>
-                  <i className="fal fa-phone" />{" "}
-                  <a href="callto:+0001234455">+000 (123) 44 55</a>
+                  <i className="fal fa-globe" />{" "}
+                  <a href="https://kreasof.ai">kreasof.ai</a>
                 </li>
               </ul>
             </div>
@@ -132,19 +136,19 @@ const DefaultFooter = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <h6 className="footer-title">Resources</h6>
+                  <h6 className="footer-title">Research</h6>
                   <ul>
                     <li>
-                      <Link href="shop">Product</Link>
+                      <Link href="/research/ai-alignment">AI Alignment</Link>
                     </li>
                     <li>
-                      <Link href="services">Services</Link>
+                      <Link href="/research/cultural-ai">Cultural AI</Link>
                     </li>
                     <li>
-                      <Link href="about">About Us</Link>
+                      <Link href="/research/agi">AGI Development</Link>
                     </li>
                     <li>
-                      <Link href="services">Benefits</Link>
+                      <Link href="/research/ethics">AI Ethics</Link>
                     </li>
                   </ul>
                 </div>
@@ -157,19 +161,19 @@ const DefaultFooter = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <h6 className="footer-title">Quick Link</h6>
+                  <h6 className="footer-title">Resources</h6>
                   <ul>
                     <li>
-                      <Link href="services">Features</Link>
+                      <Link href="/blog">Blog</Link>
                     </li>
                     <li>
-                      <Link href="pricing">Pricing Plan</Link>
+                      <Link href="/publications">Publications</Link>
                     </li>
                     <li>
-                      <Link href="about">Best Program</Link>
+                      <Link href="/education">Education</Link>
                     </li>
                     <li>
-                      <Link href="contact">Press Kit</Link>
+                      <Link href="/partnerships">Partnerships</Link>
                     </li>
                   </ul>
                 </div>
@@ -185,16 +189,16 @@ const DefaultFooter = () => {
                   <h6 className="footer-title">Company</h6>
                   <ul>
                     <li>
-                      <Link href="about">About</Link>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li>
-                      <Link href="team">Team Member</Link>
+                      <Link href="/team">Team</Link>
                     </li>
                     <li>
-                      <Link href="about">Reviews</Link>
+                      <Link href="/careers">Careers</Link>
                     </li>
                     <li>
-                      <Link href="blog">Latest News</Link>
+                      <Link href="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -212,7 +216,7 @@ const DefaultFooter = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2024, <Link href="/">Kreasof AI</Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -226,16 +230,16 @@ const DefaultFooter = () => {
               >
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="/privacy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="/terms">Terms of Service</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="/ethics">Ethics Statement</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -284,7 +288,7 @@ const Footer2 = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <input type="email" placeholder="Email Address" required="" />
+                <input type="email" placeholder="Email Address" required />
                 <button type="submit">
                   Register <i className="far fa-arrow-right" />
                 </button>
@@ -467,8 +471,8 @@ const Footer3 = () => {
                 data-aos-offset={50}
               >
                 <div className="section-title text-white">
-                  <h2>We’re Now Available On Store Download Our Apps</h2>
-                  <p>No credit card requirement it’s full free for all</p>
+                  <h2>We're Now Available On Store Download Our Apps</h2>
+                  <p>No credit card requirement it's full free for all</p>
                 </div>
                 <div className="footer-btns">
                   <a
@@ -626,7 +630,7 @@ const Footer4 = () => {
                   id="email-address"
                   type="email"
                   placeholder="Email Address"
-                  required=""
+                  required
                 />
                 <button type="submit">
                   <i className="far fa-arrow-right" />
@@ -865,7 +869,7 @@ const Footer5 = () => {
                   id="email-address"
                   type="email"
                   placeholder="Email Address"
-                  required=""
+                  required
                 />
                 <button type="submit">
                   <i className="far fa-arrow-right" />
@@ -1078,7 +1082,7 @@ const Footer6 = () => {
                 data-aos-offset={50}
               >
                 <form className="newsletter-form" action="#">
-                  <input type="email" placeholder="Email Address" required="" />
+                  <input type="email" placeholder="Email Address" required />
                   <button type="submit">
                     <b>
                       Sign Up <i className="far fa-arrow-right" />
@@ -1333,7 +1337,7 @@ const Footer7 = () => {
                   id="email-address"
                   type="email"
                   placeholder="Email Address"
-                  required=""
+                  required
                 />
                 <button type="submit">
                   <i className="far fa-arrow-right" />
@@ -1521,7 +1525,7 @@ const Footer8 = () => {
                   <label htmlFor="email-address">
                     <i className="fas fa-envelope" />
                   </label>
-                  <input type="email" placeholder="Email Address" required="" />
+                  <input type="email" placeholder="Email Address" required />
                   <button type="submit">
                     <b>
                       Sign Up <i className="far fa-arrow-right" />
@@ -1739,11 +1743,7 @@ const Footer9 = () => {
                 </div>
                 <form action="#">
                   <div className="newsletter-form bgc-lighter">
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      required=""
-                    />
+                    <input type="email" placeholder="Email Address" required />
                     <button type="submit">
                       <b>
                         Sign Up <i className="far fa-arrow-right" />
