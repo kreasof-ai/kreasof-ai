@@ -29,7 +29,7 @@ export default Footer;
 
 const DefaultFooter = () => {
   return (
-    <footer className="main-footer footer-one rel z-1 mt-100">
+    <footer className="main-footer footer-one rel z-1" id="contact-footer">
       <div className="container">
         <div className="footer-newsletter text-white">
           <div className="row align-items-center justify-content-between">
@@ -43,7 +43,7 @@ const DefaultFooter = () => {
                 <div className="logo mb-10" style={{ maxWidth: "200px" }}>
                   <Link href="/">
                     <img
-                      src="assets/images/logos/kreasof logo h.png"
+                      src="assets/images/logos/kreasof logo h white.png"
                       alt="Kreasof AI Logo"
                       style={{ width: "100%", height: "auto" }}
                     />
@@ -87,16 +87,19 @@ const DefaultFooter = () => {
                 in artificial intelligence.
               </p>
               <div className="social-style-one">
-                <a href="#">
+                <a href="https://x.com/kreasofai" target="_blank">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/company/kreasof-ai/"
+                  target="_blank"
+                >
                   <i className="fab fa-linkedin-in" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/kreasof-ai" target="_blank">
                   <i className="fab fa-github" />
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/@KreasofAI" target="_blank">
                   <i className="fab fa-youtube" />
                 </a>
               </div>
@@ -113,15 +116,17 @@ const DefaultFooter = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> Jakarta, Indonesia
+                  <i className="fal fa-map-marker-alt" /> Purwakarta, Indonesia
                 </li>
                 <li>
                   <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:contact@kreasof.ai">contact@kreasof.ai</a>
+                  <a href="mailto:habibullah.akbar@kreasor.my.id">
+                    habibullah.akbar@kreasor.my.id
+                  </a>
                 </li>
                 <li>
                   <i className="fal fa-globe" />{" "}
-                  <a href="https://kreasof.ai">kreasof.ai</a>
+                  <a href="https://kreasor.my.id">kreasor.my.id</a>
                 </li>
               </ul>
             </div>
@@ -139,16 +144,16 @@ const DefaultFooter = () => {
                   <h6 className="footer-title">Research</h6>
                   <ul>
                     <li>
-                      <Link href="/research/ai-alignment">AI Alignment</Link>
+                      <Link href="#">AI Alignment</Link>
                     </li>
                     <li>
-                      <Link href="/research/cultural-ai">Cultural AI</Link>
+                      <Link href="#">Cultural AI</Link>
                     </li>
                     <li>
-                      <Link href="/research/agi">AGI Development</Link>
+                      <Link href="#">AGI Development</Link>
                     </li>
                     <li>
-                      <Link href="/research/ethics">AI Ethics</Link>
+                      <Link href="#">AI Ethics</Link>
                     </li>
                   </ul>
                 </div>
@@ -164,16 +169,16 @@ const DefaultFooter = () => {
                   <h6 className="footer-title">Resources</h6>
                   <ul>
                     <li>
-                      <Link href="/blog">Blog</Link>
+                      <Link href="#">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/publications">Publications</Link>
+                      <Link href="#">Publications</Link>
                     </li>
                     <li>
-                      <Link href="/education">Education</Link>
+                      <Link href="#">Education</Link>
                     </li>
                     <li>
-                      <Link href="/partnerships">Partnerships</Link>
+                      <Link href="#">Partnerships</Link>
                     </li>
                   </ul>
                 </div>
@@ -189,16 +194,16 @@ const DefaultFooter = () => {
                   <h6 className="footer-title">Company</h6>
                   <ul>
                     <li>
-                      <Link href="/about">About Us</Link>
+                      <Link href="#">About Us</Link>
                     </li>
                     <li>
-                      <Link href="/team">Team</Link>
+                      <Link href="#">Team</Link>
                     </li>
                     <li>
-                      <Link href="/careers">Careers</Link>
+                      <Link href="#">Careers</Link>
                     </li>
                     <li>
-                      <Link href="/contact">Contact</Link>
+                      <Link href="#">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -216,7 +221,7 @@ const DefaultFooter = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Kreasof AI</Link> All Rights
+                  Copyright @2025, <Link href="/">Kreasof AI</Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -230,16 +235,16 @@ const DefaultFooter = () => {
               >
                 <ul>
                   <li>
-                    <Link href="/privacy">Privacy Policy</Link>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms">Terms of Service</Link>
+                    <Link href="#">Terms of Service</Link>
                   </li>
                   <li>
-                    <Link href="/ethics">Ethics Statement</Link>
+                    <Link href="#">Ethics Statement</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -325,16 +330,16 @@ const Footer2 = () => {
                 <h6 className="footer-title">Resources</h6>
                 <ul>
                   <li>
-                    <Link href="shop">Product</Link>
+                    <Link href="#">Product</Link>
                   </li>
                   <li>
-                    <Link href="services">Services</Link>
+                    <Link href="#">Services</Link>
                   </li>
                   <li>
-                    <Link href="about">About Us</Link>
+                    <Link href="#">About Us</Link>
                   </li>
                   <li>
-                    <Link href="services">Benefits</Link>
+                    <Link href="#">Benefits</Link>
                   </li>
                 </ul>
               </div>
@@ -350,16 +355,16 @@ const Footer2 = () => {
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
-                    <Link href="services">Features</Link>
+                    <Link href="#">Features</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Plan</Link>
+                    <Link href="#">Pricing Plan</Link>
                   </li>
                   <li>
-                    <Link href="about">Best Program</Link>
+                    <Link href="#">Best Program</Link>
                   </li>
                   <li>
-                    <Link href="contact">Press Kit</Link>
+                    <Link href="#">Press Kit</Link>
                   </li>
                 </ul>
               </div>
@@ -375,16 +380,16 @@ const Footer2 = () => {
                 <h6 className="footer-title">Company</h6>
                 <ul>
                   <li>
-                    <Link href="about">About</Link>
+                    <Link href="#">About</Link>
                   </li>
                   <li>
-                    <Link href="team">Team Member</Link>
+                    <Link href="#">Team Member</Link>
                   </li>
                   <li>
-                    <Link href="about">Reviews</Link>
+                    <Link href="#">Reviews</Link>
                   </li>
                   <li>
-                    <Link href="blog">Latest News</Link>
+                    <Link href="#">Latest News</Link>
                   </li>
                 </ul>
               </div>
@@ -400,16 +405,16 @@ const Footer2 = () => {
                 <h6 className="footer-title">Social</h6>
                 <ul>
                   <li>
-                    <Link href="contact">Facebook</Link>
+                    <Link href="#">Facebook</Link>
                   </li>
                   <li>
-                    <Link href="contact">Twitter</Link>
+                    <Link href="#">Twitter</Link>
                   </li>
                   <li>
-                    <Link href="contact">Instagram</Link>
+                    <Link href="#">Instagram</Link>
                   </li>
                   <li>
-                    <Link href="contact">LinkedIn</Link>
+                    <Link href="#">LinkedIn</Link>
                   </li>
                 </ul>
               </div>
@@ -423,7 +428,7 @@ const Footer2 = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="copyright-text pt-10 text-lg-start text-center">
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -432,16 +437,16 @@ const Footer2 = () => {
               <div className="footer-bottom-menu text-lg-end text-center">
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="#">Faqs</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="#">Setting</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="#">Privacy</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -501,16 +506,16 @@ const Footer3 = () => {
                 <h6 className="footer-title">Resources</h6>
                 <ul>
                   <li>
-                    <Link href="shop">Product</Link>
+                    <Link href="#">Product</Link>
                   </li>
                   <li>
-                    <Link href="services">Services</Link>
+                    <Link href="#">Services</Link>
                   </li>
                   <li>
-                    <Link href="about">About Us</Link>
+                    <Link href="#">About Us</Link>
                   </li>
                   <li>
-                    <Link href="services">Benefits</Link>
+                    <Link href="#">Benefits</Link>
                   </li>
                 </ul>
               </div>
@@ -526,16 +531,16 @@ const Footer3 = () => {
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
-                    <Link href="services">Features</Link>
+                    <Link href="#">Features</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Plan</Link>
+                    <Link href="#">Pricing Plan</Link>
                   </li>
                   <li>
-                    <Link href="about">Best Program</Link>
+                    <Link href="#">Best Program</Link>
                   </li>
                   <li>
-                    <Link href="contact">Press Kit</Link>
+                    <Link href="#">Press Kit</Link>
                   </li>
                 </ul>
               </div>
@@ -552,7 +557,7 @@ const Footer3 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -657,19 +662,19 @@ const Footer4 = () => {
               <h6 className="footer-title">Courses</h6>
               <ul>
                 <li>
-                  <Link href="contact">Web Design</Link>
+                  <Link href="#">Web Design</Link>
                 </li>
                 <li>
-                  <Link href="contact">Digital Marketing</Link>
+                  <Link href="#">Digital Marketing</Link>
                 </li>
                 <li>
-                  <Link href="contact">Apps Development</Link>
+                  <Link href="#">Apps Development</Link>
                 </li>
                 <li>
-                  <Link href="contact">Graphics Design</Link>
+                  <Link href="#">Graphics Design</Link>
                 </li>
                 <li>
-                  <Link href="contact">Computer Science</Link>
+                  <Link href="#">Computer Science</Link>
                 </li>
               </ul>
             </div>
@@ -685,19 +690,19 @@ const Footer4 = () => {
               <h6 className="footer-title">Quick Link</h6>
               <ul>
                 <li>
-                  <Link href="services">Features</Link>
+                  <Link href="#">Features</Link>
                 </li>
                 <li>
-                  <Link href="pricing">Pricing Plan</Link>
+                  <Link href="#">Pricing Plan</Link>
                 </li>
                 <li>
-                  <Link href="about">Best Program</Link>
+                  <Link href="#">Best Program</Link>
                 </li>
                 <li>
-                  <Link href="contact">Press Kit</Link>
+                  <Link href="#">Press Kit</Link>
                 </li>
                 <li>
-                  <Link href="about">About Company</Link>
+                  <Link href="#">About Company</Link>
                 </li>
               </ul>
             </div>
@@ -780,7 +785,7 @@ const Footer4 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -896,19 +901,19 @@ const Footer5 = () => {
               <h6 className="footer-title">Courses</h6>
               <ul>
                 <li>
-                  <Link href="contact">Web Design</Link>
+                  <Link href="#">Web Design</Link>
                 </li>
                 <li>
-                  <Link href="contact">Digital Marketing</Link>
+                  <Link href="#">Digital Marketing</Link>
                 </li>
                 <li>
-                  <Link href="contact">Apps Development</Link>
+                  <Link href="#">Apps Development</Link>
                 </li>
                 <li>
-                  <Link href="contact">Graphics Design</Link>
+                  <Link href="#">Graphics Design</Link>
                 </li>
                 <li>
-                  <Link href="contact">Computer Science</Link>
+                  <Link href="#">Computer Science</Link>
                 </li>
               </ul>
             </div>
@@ -924,19 +929,19 @@ const Footer5 = () => {
               <h6 className="footer-title">Quick Link</h6>
               <ul>
                 <li>
-                  <Link href="services">Features</Link>
+                  <Link href="#">Features</Link>
                 </li>
                 <li>
-                  <Link href="pricing">Pricing Plan</Link>
+                  <Link href="#">Pricing Plan</Link>
                 </li>
                 <li>
-                  <Link href="about">Best Program</Link>
+                  <Link href="#">Best Program</Link>
                 </li>
                 <li>
-                  <Link href="contact">Press Kit</Link>
+                  <Link href="#">Press Kit</Link>
                 </li>
                 <li>
-                  <Link href="about">About Company</Link>
+                  <Link href="#">About Company</Link>
                 </li>
               </ul>
             </div>
@@ -1019,7 +1024,7 @@ const Footer5 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -1033,16 +1038,16 @@ const Footer5 = () => {
               >
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="#">Faqs</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="#">Setting</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="#">Privacy</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -1239,7 +1244,7 @@ const Footer6 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -1253,16 +1258,16 @@ const Footer6 = () => {
               >
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="#">Faqs</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="#">Setting</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="#">Privacy</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -1455,7 +1460,7 @@ const Footer7 = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="copyright-text pt-10 text-lg-start text-center">
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -1464,16 +1469,16 @@ const Footer7 = () => {
               <div className="footer-bottom-menu text-lg-end text-center">
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="#">Faqs</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="#">Setting</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="#">Privacy</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -1609,16 +1614,16 @@ const Footer8 = () => {
                   <h6 className="footer-title">Resources</h6>
                   <ul>
                     <li>
-                      <Link href="shop">Product</Link>
+                      <Link href="#">Product</Link>
                     </li>
                     <li>
-                      <Link href="services">Services</Link>
+                      <Link href="#">Services</Link>
                     </li>
                     <li>
-                      <Link href="about">About Us</Link>
+                      <Link href="#">About Us</Link>
                     </li>
                     <li>
-                      <Link href="services">Benefits</Link>
+                      <Link href="#">Benefits</Link>
                     </li>
                   </ul>
                 </div>
@@ -1634,16 +1639,16 @@ const Footer8 = () => {
                   <h6 className="footer-title">Quick Link</h6>
                   <ul>
                     <li>
-                      <Link href="services">Features</Link>
+                      <Link href="#">Features</Link>
                     </li>
                     <li>
-                      <Link href="pricing">Pricing Plan</Link>
+                      <Link href="#">Pricing Plan</Link>
                     </li>
                     <li>
-                      <Link href="about">Best Program</Link>
+                      <Link href="#">Best Program</Link>
                     </li>
                     <li>
-                      <Link href="contact">Press Kit</Link>
+                      <Link href="#">Press Kit</Link>
                     </li>
                   </ul>
                 </div>
@@ -1686,7 +1691,7 @@ const Footer8 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>
@@ -1700,16 +1705,16 @@ const Footer8 = () => {
               >
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="#">Faqs</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="#">Setting</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="#">Privacy</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="#">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -1790,16 +1795,16 @@ const Footer9 = () => {
                 <h6 className="footer-title">Resources</h6>
                 <ul>
                   <li>
-                    <Link href="shop">Product</Link>
+                    <Link href="#">Product</Link>
                   </li>
                   <li>
-                    <Link href="services">Services</Link>
+                    <Link href="#">Services</Link>
                   </li>
                   <li>
-                    <Link href="about">About Us</Link>
+                    <Link href="#">About Us</Link>
                   </li>
                   <li>
-                    <Link href="services">Benefits</Link>
+                    <Link href="#">Benefits</Link>
                   </li>
                 </ul>
               </div>
@@ -1815,16 +1820,16 @@ const Footer9 = () => {
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
-                    <Link href="services">Features</Link>
+                    <Link href="#">Features</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Plan</Link>
+                    <Link href="#">Pricing Plan</Link>
                   </li>
                   <li>
-                    <Link href="about">Best Program</Link>
+                    <Link href="#">Best Program</Link>
                   </li>
                   <li>
-                    <Link href="contact">Press Kit</Link>
+                    <Link href="#">Press Kit</Link>
                   </li>
                 </ul>
               </div>
@@ -1853,7 +1858,7 @@ const Footer9 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
+                  Copyright @2025, <Link href="/">Akpager </Link> All Rights
                   Reserved
                 </p>
               </div>

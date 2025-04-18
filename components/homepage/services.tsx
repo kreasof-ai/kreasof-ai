@@ -18,13 +18,13 @@ export default function HomepageServices() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="iconic-box">
+              <div className="iconic-box equal-height">
                 <div className="icon">
                   <i className="flaticon-customer-service-1" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       AI Alignment Research
                     </Link>
                   </h4>
@@ -34,7 +34,7 @@ export default function HomepageServices() {
                     frameworks.
                   </p>
                   <hr />
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -55,13 +55,13 @@ export default function HomepageServices() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="iconic-box">
+              <div className="iconic-box equal-height">
                 <div className="icon">
                   <i className="flaticon-idea" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Explainable AI
                     </Link>
                   </h4>
@@ -71,7 +71,7 @@ export default function HomepageServices() {
                     sensitive contexts.
                   </p>
                   <hr />
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -92,13 +92,13 @@ export default function HomepageServices() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="iconic-box">
+              <div className="iconic-box equal-height">
                 <div className="icon">
                   <i className="flaticon-earning" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Culturally-Aware AI
                     </Link>
                   </h4>
@@ -108,7 +108,7 @@ export default function HomepageServices() {
                     contexts.
                   </p>
                   <hr />
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -141,8 +141,9 @@ export default function HomepageServices() {
               </div>
               <div className="author">
                 <img
-                  src="assets/images/blog/stephen-hawking.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg"
                   alt="Author"
+                  style={{ objectFit: "cover", objectPosition: "top" }}
                 />
                 <div className="name">
                   <h5>Stephen Hawking</h5> <span>Theoretical Physicist</span>

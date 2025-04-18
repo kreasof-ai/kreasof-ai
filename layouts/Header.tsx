@@ -41,9 +41,10 @@ const DefaultHeader = ({ onePage }) => {
     { id: 1, href: "home", title: "Home" },
     { id: 8, href: "about", title: "about" },
     { id: 3, href: "services", title: "services" },
-    { id: 2, href: "projects", title: "project" },
-    { id: 5, href: "testimonials", title: "testimonials" },
-    { id: 6, href: "blog", title: "blog" },
+    { id: 111, href: "contact-footer", title: "contact" },
+    // { id: 2, href: "projects", title: "project" },
+    // { id: 5, href: "testimonials", title: "testimonials" },
+    // { id: 6, href: "blog", title: "blog" },
   ];
   return (
     <header className="main-header menu-absolute header-white no-border">
@@ -78,11 +79,11 @@ const DefaultHeader = ({ onePage }) => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-            <div className="menu-btns ms-lg-auto d-none d-xl-flex">
+            {/* <div className="menu-btns ms-lg-auto d-none d-xl-flex">
               <Link href="#" className="theme-btn">
                 Learn AI <i className="far fa-arrow-right" />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ export default function HomepageSolutions() {
                 <div className="icon-title">
                   <i className="flaticon-meeting" />
                   <h5>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       AI Education Platform
                     </Link>
                   </h5>
@@ -51,7 +51,7 @@ export default function HomepageSolutions() {
                     advanced AGI concepts, with a focus on ethical development
                     and cultural awareness.
                   </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -84,7 +84,7 @@ export default function HomepageSolutions() {
                 <div className="icon-title">
                   <i className="flaticon-financial-advisor" />
                   <h5>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Research Partnerships
                     </Link>
                   </h5>
@@ -95,7 +95,7 @@ export default function HomepageSolutions() {
                     government bodies to advance AI research and development in
                     Indonesia and beyond.
                   </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -128,7 +128,7 @@ export default function HomepageSolutions() {
                 <div className="icon-title">
                   <i className="flaticon-meeting" />
                   <h5>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Ethical AI Implementation
                     </Link>
                   </h5>
@@ -139,7 +139,7 @@ export default function HomepageSolutions() {
                     education, and sustainability, with a focus on cultural
                     sensitivity and ethical considerations.
                   </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>

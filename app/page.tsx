@@ -22,9 +22,9 @@ const Index = () => {
       <HomepageProjects />
       <HomepageTimeline />
       <HomepageManagement />
-      <HomepageTestimonials />
-      <HomepageBlog />
-      <HomepageClients />
+      {/* <HomepageTestimonials /> */}
+      {/* <HomepageBlog /> */}
+      {/* <HomepageClients /> */}
     </AkpagerLayout>
   );
 };

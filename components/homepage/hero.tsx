@@ -45,12 +45,12 @@ export default function HomepageHero() {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <Link href="#about" legacyBehavior>
+                <Link href="#" legacyBehavior>
                   <a className="theme-btn">
                     Our Mission <i className="far fa-arrow-right" />
                   </a>
                 </Link>
-                <Link href="#services" legacyBehavior>
+                <Link href="#" legacyBehavior>
                   <a className="theme-btn style-two">
                     Research Areas <i className="far fa-arrow-right" />
                   </a>

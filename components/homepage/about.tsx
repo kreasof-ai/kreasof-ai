@@ -13,9 +13,6 @@ export default function HomepageAbout() {
               data-aos-offset={50}
             >
               <img src="assets/images/about/about.jpg" alt="About" />
-              <div className="about-over">
-                <img src="assets/images/about/about2.png" alt="About" />
-              </div>
             </div>
           </div>
           <div className="col-lg-6">

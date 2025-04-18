@@ -87,7 +87,7 @@ export default function HomepageTimeline() {
                     data-speed={3000}
                     data-stop={10}
                   >
-                    <Counter end={10} />
+                    <Counter end={7} />
                   </span>
                   <span className="counter-title">Years of Impact</span>
                 </div>

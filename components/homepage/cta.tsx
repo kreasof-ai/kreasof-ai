@@ -25,7 +25,7 @@ export default function HomepageCTA() {
                 contribute to research, or implement culturally-aware AI
                 solutions in your organization.
               </p>
-              <Link legacyBehavior href="/contact">
+              <Link legacyBehavior href="#">
                 <a className="theme-btn">
                   Partner with Us <i className="far fa-arrow-right" />
                 </a>
@@ -39,8 +39,9 @@ export default function HomepageCTA() {
               data-aos-duration={1000}
             >
               <a
-                href="https://www.youtube.com/watch?v=9Y7ma241N8k"
+                href="https://www.youtube.com/@KreasofAI"
                 className="mfp-iframe video-play"
+                target="_blank"
               >
                 <i className="fas fa-play" />
               </a>

@@ -4,7 +4,7 @@ import React from "react";
 export default function HomepageManagement() {
   return (
     <section
-      className="management-area bgp-bottom bgc-navyblue py-60"
+      className="management-area bgp-bottom bgc-navyblue py-60 pb-100"
       style={{
         backgroundImage: "url(assets/images/backgrounds/wave-shape.png)",
       }}
@@ -34,7 +34,7 @@ export default function HomepageManagement() {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Kreasof AI Research
                         </Link>
                       </h5>
@@ -53,7 +53,7 @@ export default function HomepageManagement() {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Kreasof AI Capital
                         </Link>
                       </h5>
@@ -76,12 +76,6 @@ export default function HomepageManagement() {
               data-aos-offset={50}
             >
               <img src="assets/images/about/management1.png" alt="Management" />
-              <div className="management-over">
-                <img
-                  src="assets/images/about/management2.png"
-                  alt="Management"
-                />
-              </div>
             </div>
           </div>
         </div>
