@@ -4,8 +4,15 @@
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .logo_text {
+    font-size: 1.5rem;
+  }
+}
+
 .logo {
   display: flex;
   align-items: center;
   gap: 1rem;
+  width: max-content;
 }

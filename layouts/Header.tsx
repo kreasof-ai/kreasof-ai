@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import { Accordion } from "react-bootstrap";
 import styles from "./Header.module.css";
-import clsx from "clsx";
 
 const Header = ({ header, onePage }) => {
   switch (header) {
@@ -808,8 +807,15 @@ const Nav = ({
       <div className="d-none d-lg-flex desktop-menu">
         <div className="navbar-header py-10">
           <div className="mobile-logo">
-            <Link href="/">
-              <img src={logo} alt="Logo" title="Logo" />
+            <Link href="/" className={styles.logo}>
+              <Image
+                src="/assets/images/logos/kreasof logo.png"
+                alt="Logo"
+                title="Logo"
+                width={50}
+                height={50}
+              />
+              <h3 className={styles.logo_text}>Kreasof AI</h3>
             </Link>
           </div>
           {/* Toggle Button */}
@@ -1022,8 +1028,15 @@ const Nav = ({
       <Accordion defaultActiveKey="0" className="d-block d-lg-none mobile-menu">
         <div className="navbar-header py-10">
           <div className="mobile-logo">
-            <Link href="/">
-              <img src={logo} alt="Logo" title="Logo" />
+            <Link href="/" className={styles.logo}>
+              <Image
+                src="/assets/images/logos/kreasof logo.png"
+                alt="Logo"
+                title="Logo"
+                width={50}
+                height={50}
+              />
+              <h3 className={styles.logo_text}>Kreasof AI</h3>
             </Link>
           </div>
           {/* Toggle Button */}

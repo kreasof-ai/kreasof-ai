@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import styles from "./Header.module.css";
 
 const Footer = ({ footer }) => {
   switch (footer) {
@@ -41,10 +43,12 @@ const DefaultFooter = () => {
                 data-aos-offset={50}
               >
                 <div className="logo mb-10" style={{ maxWidth: "200px" }}>
-                  <Link href="/">
-                    <img
-                      src="assets/images/logos/kreasof logo h white.png"
+                  <Link href="/" className={styles.logo}>
+                    <Image
+                      src="/assets/images/logos/kreasof logo h white.png"
                       alt="Kreasof AI Logo"
+                      width={200}
+                      height={50}
                       style={{ width: "100%", height: "auto" }}
                     />
                   </Link>
