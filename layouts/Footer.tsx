@@ -124,13 +124,13 @@ const DefaultFooter = () => {
                 </li>
                 <li>
                   <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:habibullah.akbar@kreasor.my.id">
-                    habibullah.akbar@kreasor.my.id
+                  <a href="mailto:habibullah.akbar@kreasof.my.id">
+                    habibullah.akbar@kreasof.my.id
                   </a>
                 </li>
                 <li>
                   <i className="fal fa-globe" />{" "}
-                  <a href="https://kreasor.my.id">kreasor.my.id</a>
+                  <a href="https://kreasof.my.id">kreasof.my.id</a>
                 </li>
               </ul>
             </div>
