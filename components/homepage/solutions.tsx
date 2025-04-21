@@ -32,7 +32,7 @@ export default function HomepageSolutions() {
             >
               <div className="image">
                 <img
-                  src="assets/images/fancy-box/fancy-box1.jpg"
+                  src="assets/images/fancy-box/feature-1.png"
                   alt="Fancy Box"
                 />
               </div>
@@ -76,7 +76,7 @@ export default function HomepageSolutions() {
             >
               <div className="image">
                 <img
-                  src="assets/images/fancy-box/fancy-box2.jpg"
+                  src="assets/images/fancy-box/feature-2.png"
                   alt="Fancy Box"
                 />
               </div>
@@ -120,7 +120,7 @@ export default function HomepageSolutions() {
             >
               <div className="image">
                 <img
-                  src="assets/images/fancy-box/fancy-box3.jpg"
+                  src="assets/images/fancy-box/feature-3.png"
                   alt="Fancy Box"
                 />
               </div>

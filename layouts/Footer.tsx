@@ -120,7 +120,7 @@ const DefaultFooter = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> Purwakarta, Indonesia
+                  <i className="fal fa-map-marker-alt" /> Depok, Indonesia
                 </li>
                 <li>
                   <i className="fal fa-envelope" />{" "}

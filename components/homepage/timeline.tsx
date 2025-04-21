@@ -30,9 +30,9 @@ export default function HomepageTimeline() {
                     data-speed={3000}
                     data-stop={2}
                   >
-                    <Counter end={2} />
+                    <Counter end={1000} />
                   </span>
-                  <span className="counter-title">Years of Research</span>
+                  <span className="counter-title">Research Reviewed</span>
                 </div>
               </div>
             </div>
@@ -49,9 +49,9 @@ export default function HomepageTimeline() {
                     data-speed={3000}
                     data-stop={5}
                   >
-                    <Counter end={5} />
+                    <Counter end={500} />
                   </span>
-                  <span className="counter-title">Years of Development</span>
+                  <span className="counter-title">Community Members</span>
                 </div>
                 <span className="dots">
                   <img
@@ -82,14 +82,10 @@ export default function HomepageTimeline() {
                   />
                 </span>
                 <div className="content">
-                  <span
-                    className="count-text plus"
-                    data-speed={3000}
-                    data-stop={10}
-                  >
-                    <Counter end={7} />
+                  <span className="count-text" data-speed={3000} data-stop={10}>
+                    <Counter end={2} />
                   </span>
-                  <span className="counter-title">Years of Impact</span>
+                  <span className="counter-title">AI Research Projects</span>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ import React from "react";
 export default function HomepageManagement() {
   return (
     <section
-      className="management-area bgp-bottom bgc-navyblue py-60 pb-100"
+      className="management-area bgp-bottom bgc-navyblue py-60 pb-150"
       style={{
         backgroundImage: "url(assets/images/backgrounds/wave-shape.png)",
       }}
@@ -49,7 +49,7 @@ export default function HomepageManagement() {
                 <div className="col-md-6">
                   <div className="iconic-box style-nine text-white">
                     <div className="icon">
-                      <i className="fal fa-cog" />
+                      <i className="fal fa-dollar-sign" />
                     </div>
                     <div className="content">
                       <h5>
@@ -75,7 +75,10 @@ export default function HomepageManagement() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <img src="assets/images/about/management1.png" alt="Management" />
+              <img
+                src="assets/images/about/management-new.png"
+                alt="Management"
+              />
             </div>
           </div>
         </div>

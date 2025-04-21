@@ -5,7 +5,10 @@ export default function HomepageCTA() {
   return (
     <section
       className="cta-area bgs-cover py-130 rpy-100"
-      style={{ backgroundImage: "url(assets/images/backgrounds/cta.jpg)" }}
+      style={{
+        backgroundImage: "url(assets/images/backgrounds/cta-new.png)",
+        backgroundPosition: "bottom",
+      }}
     >
       <div className="container">
         <div className="row align-items-center justify-content-between">

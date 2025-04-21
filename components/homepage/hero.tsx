@@ -6,7 +6,7 @@ export default function HomepageHero() {
     <section
       id="home"
       className="hero-area bgs-cover py-250 rpy-150 overlay"
-      style={{ backgroundImage: "url(assets/images/hero/hero-one.png)" }}
+      style={{ backgroundImage: "url(assets/images/hero/hero-new.png)" }}
     >
       <div className="container">
         <div className="row justify-content-center">

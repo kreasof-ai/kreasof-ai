@@ -12,7 +12,7 @@ export default function HomepageAbout() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <img src="assets/images/about/about.jpg" alt="About" />
+              <img src="assets/images/about/about-new.png" alt="About" />
             </div>
           </div>
           <div className="col-lg-6">
